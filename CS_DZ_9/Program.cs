@@ -13,7 +13,7 @@ namespace CS_DZ_9
             int firstNumber = 7;
             int lastNumber = 98;
 
-            for (int i = firstNumber; i <= lastNumber;  i += 7) 
+            for (int i = firstNumber; i <= lastNumber;  i += firstNumber) 
             {
                 Console.WriteLine(i);
             }
