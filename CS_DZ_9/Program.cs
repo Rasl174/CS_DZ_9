@@ -10,7 +10,10 @@ namespace CS_DZ_9
     {
         static void Main(string[] args)
         {
-            for (int i = 7; i < 100;  i += 7) 
+            int firstNumber = 7;
+            int lastNumber = 98;
+
+            for (int i = firstNumber; i <= lastNumber;  i += 7) 
             {
                 Console.WriteLine(i);
             }
